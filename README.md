@@ -8,7 +8,7 @@ University of Science and Technology of China (USTC), Microsoft Research Asia (M
 ## New!!!
 | 2023-04-21  | Release the code for one version **(serial first-order) (cheap training)** of **Distortion-invariant Learning (DIL)** on **image denosing** | 
 
- | Release the code for one version **(serial first-order) (cheap training)** of **Distortion-invariant Learning (DIL)** on **image denosing** |. 
+ **🌟 The  project of [Enhance-Anything](https://github.com/lixinustc/Enhance-Anything) with Segment-Anything (SAM) are started. More functions will be provided. Welcome to have the cooperation and communication.** We also expect to integrate our DIL to it.
    
 
 
