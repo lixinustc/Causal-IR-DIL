@@ -182,7 +182,7 @@ def main():
 
     for epoch in range(total_epochs):
 
-        if epoch and not (epoch % 25):
+        if epoch and not (epoch % 20):
             for param in optimizer_meta.param_groups:
                 param['lr'] = (param['lr'] * 0.5) if param['lr'] > 1.e-6 else 1.e-6
             sche = True
