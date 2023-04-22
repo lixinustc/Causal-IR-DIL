@@ -12,7 +12,7 @@ University of Science and Technology of China (USTC), Microsoft Research Asia (M
 In recent years, we have witnessed the great advancement of Deep neural networks (DNNs) in image restoration. However, a critical limitation is that they cannot generalize well to real-world degradations with different degrees or types. In this paper, we are the first to propose a novel training strategy for image restoration from the causality perspective, to improve the generalization ability of DNNs for unknown degradations. Our method, termed Distortion Invariant representation Learning (DIL), treats each distortion type and degree as one specific confounder, and learns the distortion-invariant representation by eliminating the harmful confounding effect of each degradation. We derive our DIL with the back-door criterion in causality by modeling the interventions of different distortions from the optimization perspective. Particularly, we introduce counterfactual distortion augmentation to simulate the virtual distortion types and degrees as the confounders. Then, we instantiate the intervention of each distortion with a virtual model updating based on corresponding distorted images, and eliminate them from the meta-learning perspective. Extensive experiments demonstrate the effectiveness of our DIL on the generalization capability for unseen distortion types and degrees.
 
 ## New!!!
-| 2023-04-21  | Release the code for one version (serial first-order) (cheap training) of Distortion-invariant Learning (DIL) on image denosing | 
+| 2023-04-21  | Release the code for one version **(serial first-order) (cheap training)** of **Distortion-invariant Learning (DIL)* on **image denosing** | 
 
 More version will be released progressively.
 
